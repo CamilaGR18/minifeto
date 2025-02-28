@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla con Encabezado, Pie de Página y Apartados</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            padding: 20px;
+            background-color: #4CAF50;
+            color: white;
+        }
+        p {
+            text-align: center;
+            font-size: 1.2em;
+        }
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 12px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        tbody tr:hover {
+            background-color: #f2f2f2;
+        }
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+        }
+        .apartados {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+        .apartado {
+            width: 30%;
+            padding: 15px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .apartado img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .apartado a {
+            display: block;
+            text-align: center;
+            margin-top: 10px;
+            color: #4CAF50;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .apartado a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Bienvenido a mi empresa</h1>
+    <p>Este es mi catalogo:</p>
+
+    <div class="apartados">
+        <div class="apartado">
+            <h3>chevi pop</h3>
+            <a href="file:///C:/Users/Alumno.SALA1-38/Desktop/OCHO.html">mi empresa</a>
+        </div>
+        <div class="apartado">
+            <h3>carros</h3>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTg4rYw1oq9Tq9DCFwMMwFph9GNzMQg2A967w&s" alt="Imagen de Paisaje">
+        </div>
+        <div class="apartado">
+            <h3>carro</h3>
+            <a href="file:///C:/Users/Alumno.SALA1-38/Desktop/CUARTO.html">carro</a>
+        </div>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nombre.E</th>
+                <th>lugar</th>
+                <th>Ciudad</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>rapidos</td>
+                <td>pachuca</td>
+                <td>hidalgo</td>
+            </tr>
+            <tr>
+                <td>rapidos</td>
+                <td>tlaxiaca</td>
+                <td>hidalgo</td>
+            </tr>
+            <tr>
+                <td>rapidos</td>
+                <td>arenal</td>
+                <td>hidalgo</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <footer>
+        <p>&copy; 2025 Mi Empresa. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
